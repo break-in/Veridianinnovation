@@ -488,32 +488,37 @@ form .textarea-field .error-txt{
 
 @media (max-width: 320px) {
     html {
-        font-size: 45%; /* Adjust font size for smaller screens */
+        font-size: 45%; /* Adjust font size */
     }
-    
+
+    /* Ensure the menu icon remains visible */
+    #menu-icon {
+        display: block;
+        font-size: 4rem; /* Increase icon size to make it visible */
+        position: absolute;
+        top: 1rem;
+        right: 1rem; /* Position it inside the header */
+    }
+
     .header {
         padding: 1.5rem 3%;
     }
-    
+
     .navbar a {
         font-size: 1.6rem;
         margin-left: 2rem;
     }
-    
-    #menu-icon {
-        font-size: 3.2rem;
-    }
-    
+
     .home-content h3 {
         font-size: 2.4rem;
     }
-    
+
     .home-content h1 {
         font-size: 4.5rem;
     }
-    
+
     .home-img img {
-        width: 80vw; /* Adjust image size for smaller screens */
+        width: 80vw; /* Adjust image size */
     }
 
     .social-media a {
@@ -521,7 +526,7 @@ form .textarea-field .error-txt{
         height: 3.5rem;
         font-size: 1.6rem;
     }
-    
+
     .btn {
         padding: 1rem 2.5rem;
         font-size: 1.4rem;
@@ -539,7 +544,7 @@ form .textarea-field .error-txt{
     .project-container {
         grid-template-columns: 1fr;
     }
-    
+
     .contact form button {
         padding: 10px 28px;
         font-size: 1.4rem;
@@ -548,11 +553,11 @@ form .textarea-field .error-txt{
     .footer {
         padding: 1.5rem 3%;
     }
-    
+
     .footer-iconTop a {
         padding: .6rem;
     }
-    
+
     .footer-iconTop a ion-icon {
         font-size: 2rem;
     }
