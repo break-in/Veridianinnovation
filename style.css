@@ -550,6 +550,79 @@ form .textarea-field .error-txt{
     }
 }
 
+@media (max-width: 320px) {
+    html {
+        font-size: 45%; /* Adjust font size for smaller screens */
+    }
+    
+    .header {
+        padding: 1.5rem 3%;
+    }
+    
+    .navbar a {
+        font-size: 1.6rem;
+        margin-left: 2rem;
+    }
+    
+    #menu-icon {
+        font-size: 3.2rem;
+    }
+    
+    .home-content h3 {
+        font-size: 2.4rem;
+    }
+    
+    .home-content h1 {
+        font-size: 4.5rem;
+    }
+    
+    .home-img img {
+        width: 80vw; /* Adjust image size for smaller screens */
+    }
+
+    .social-media a {
+        width: 3.5rem;
+        height: 3.5rem;
+        font-size: 1.6rem;
+    }
+    
+    .btn {
+        padding: 1rem 2.5rem;
+        font-size: 1.4rem;
+    }
+
+    .about-img img {
+        width: 80vw;
+    }
+
+    .services-container .services-box {
+        flex: 1 1 100%;
+        padding: 2rem;
+    }
+
+    .project-container {
+        grid-template-columns: 1fr;
+    }
+    
+    .contact form button {
+        padding: 10px 28px;
+        font-size: 1.4rem;
+    }
+
+    .footer {
+        padding: 1.5rem 3%;
+    }
+    
+    .footer-iconTop a {
+        padding: .6rem;
+    }
+    
+    .footer-iconTop a ion-icon {
+        font-size: 2rem;
+    }
+}
+
+
 
 
 
