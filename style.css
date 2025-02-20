@@ -470,7 +470,7 @@ form .textarea-field .error-txt{
         width: 100%
     }
 }
-@media (max-width: 365px){
+@media (max-width: 365px, 320px){
     .home-img img{
         width: 90vw;
     }
@@ -484,32 +484,6 @@ form .textarea-field .error-txt{
         text-align: center;
         margin-top: 2rem;
     }
-}
-
-@media (max-width: 320px) {
-  body {
-    font-size: 12px;
-    padding: 8px;
-  }
-  .nav-menu {
-    display: none; /* Hide navigation menu to save space */
-  }
-  .header {
-    font-size: 16px;
-    text-align: center; /* Center align header text */
-  }
-  .content {
-    padding: 4px; /* Reduce padding around content */
-  }
-  .btn {
-    padding: 8px 12px; /* Ensure buttons are still touch-friendly */
-    font-size: 12px;
-  }
-  img {
-    width: 100%; /* Ensure images are responsive */
-    height: auto;
-  }
-  /* Add other specific styling for even smaller screens as needed */
 }
 
 
